@@ -1,0 +1,61 @@
+{
+  "APP": {
+    "LANG": "fr",
+    "PORT": "8443",
+    "MAX_CLUSTER": 0,
+    "JWT_SECRET": "@u:gJR%=h.?`H8T4.r2>H4O';95$_^",
+    "JWT_ISSUER": "http://kirin.com"
+  },
+
+  "LOG": {
+    "LEVEL": "debug",
+    "CONSOLE": true,
+    "I18N": false,
+    "SQL": false
+  },
+
+  "SQL": {
+    "HOST": "192.168.0.17",
+    "DB": "phoenix",
+    "PORT": "5432",
+    "USER": "dbuser",
+    "PASSWD": "dbuser"
+  },
+
+  "SSL": {
+    "CERT": "./config/ssl/localhost.cert.pem",
+    "KEY": "./config/ssl/localhost.pem"
+  },
+
+  "MAIL": {
+    "HOST": "smtp.ethereal.email",
+    "PORT": 587,
+    "SECURE": false,
+    "USER": null,
+    "PASSWORD": null
+  },
+
+  "PICTURES": {
+    "TMP_DIR": "./public/content/tmp/",
+    "AVATAR_DIR": "./public/content/avatar/",
+    "COVER": "./public/content/cover/",
+    "GALLERY_DIR": "./public/content/gallery/",
+    "STATUS_DIR": "./public/content/status/"
+  },
+
+  "ITEM_PER_PAGE": {
+    "FEEDS": 30,
+    "FOLLOWERS": 30,
+    "CHANNELS": 30,
+    "TOPICS": 30,
+    "POSTS": 30,
+    "HOT_POSTS": 5,
+    "LAST_POSTS": 5
+  },
+
+  "INVITE": {
+    "MAIL_FROM": "phoenix test <noreply@phoenix.cc>",
+    "MAIL_SUBJECT": "👻 test invite mail",
+    "RESEND_DELAY": 86400000
+  }
+}

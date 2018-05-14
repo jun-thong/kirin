@@ -1,0 +1,20 @@
+#indexBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login {
+    background-color: rgb(var(--dark-grey4));
+
+    width: 280px;
+    min-height: 460px;
+    padding: 10px;
+}
+
+#login > * { margin-bottom: 6px; }
+#login > *:last-child { margin-bottom: 0; }
+
+#login input {
+    width: 100%;
+}

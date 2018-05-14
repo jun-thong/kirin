@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 2vh auto;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #36393E;
+}
+
+nav ul li:last-child {
+    border: none;
+}
+
+.nav-el {
+    color: #E1E8ED;
+    text-decoration: none;
+}
+
+nav ul:hover .nav-el {
+    opacity: .3;
+    transition: opacity .5s;
+}
+
+nav ul .nav-el:hover {
+    color: #E1E8ED;
+    opacity: 1;
+}

@@ -1,0 +1,66 @@
+/*
+ * /!\ warning /!\
+ * Because of postcss way of implementing css-var, it's only possible to declare vars in :root;
+ */
+:root {
+    /* blueprint */
+    /* --dark-grey1: #182026;
+    --dark-grey2: #202B33;
+    --dark-grey3: #293742;
+    --dark-grey4: #30404D;
+    --dark-grey5: #394B59; */
+
+    /* mastodon */
+    /*--color1: #191b22;
+    --color2: #20242b;
+    --color3: #313542;
+    --color4: #292d37;
+    --color5: #393f4e;
+    --color6: #444b5c;
+    --color7: #606983;
+    --color8: #9baec7;
+    --color9: #707b96;
+    --color10: #757575;
+    --color11: #ebebeb;
+    --color12: #fff;
+    --color13: #F330BE;
+    --color14: #1BECF6; */
+    /* #f5498b; */
+    /* #48aff0 */
+
+
+    /* --dark-grey1: #191b22;
+    --dark-grey2: #20242b;
+    --dark-grey3: #313542;
+    --dark-grey4: #292d37;
+    --dark-grey5: #393f4e;
+
+    --grey1: #444b5c;
+    --grey2: #606983;
+    --grey3: #707b96;
+    --grey4: #9baec7;
+
+    --light-grey1: #ebebeb;
+
+    --neutral-gray1: #757575; */
+
+    --dark-grey1: 25, 27, 34; /* #191b22 */
+    --dark-grey2: 32, 36, 43; /* #20242b; */
+    --dark-grey3: 49, 53, 66; /* #313542; */
+    --dark-grey4: 41, 45, 55; /* #292d37; */
+    --dark-grey5: 57, 63, 78; /* #393f4e; */
+
+    --grey1: 68, 75, 92; /* #444b5c; */
+    --grey2: 96, 105, 131; /* #606983; */
+    --grey3: 112, 123, 150; /* #707b96; */
+    --grey4: 155, 174, 199; /* #9baec7; */
+
+    --light-grey1: 235, 235, 235; /* #ebebeb; */
+
+    --neutral-gray1: 117, 117, 117; /* #757575; */
+
+    --indigo3: 41, 101, 204; /* #2965CC */
+    --pink3: 219, 44, 111; /* DB2C6F */
+
+    --corneredShape: polygon(0% 0%, 0% 100%, 100% 100%, 100% 10px, calc(100% - 10px) 0);
+}

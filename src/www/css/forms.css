@@ -1,0 +1,75 @@
+input {
+    box-shadow: 0 0 0 0 rgba(var(--indigo3),0),
+                0 0 0 0 rgba(var(--indigo3),0),
+                0 0 0 0 rgba(var(--indigo3),0),
+                inset 0 0 0 1px rgba(16,22,26,.7),
+                inset 0 1px 1px rgba(16,22,26,.8);
+    background: rgb(var(--dark-grey1));
+    color: rgb(var(--light-grey1));
+
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    padding: 0 10px;
+    vertical-align: middle;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    transition: box-shadow .1s cubic-bezier(.4,1,.75,.9);
+    appearance: none;
+}
+
+input:focus {
+    box-shadow: 0 0 0 1px rgb(var(--indigo3)),
+                0 0 0 1px rgb(var(--indigo3)),
+                0 0 0 3px rgba(var(--indigo3), .3),
+                inset 0 0 0 1px rgba(16, 22, 26, .7),
+                inset 0 1px 1px rgba(16, 22, 26, .8);
+}
+
+input.error, input:invalid {
+    box-shadow: 0 0 0 1px rgb(var(--pink3)),
+                0 0 0 1px rgb(var(--pink3)),
+                0 0 0 3px rgba(var(--pink3), .3),
+                inset 0 0 0 1px rgba(16, 22, 26, .7),
+                inset 0 1px 1px rgba(16, 22, 26, .8);
+}
+
+input:disabled {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: not-allowed;
+    background: rgb(var(--dark-grey1), 0.5);
+    color: rgba(var(--grey2),.5);
+    resize: none;
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+    transition: none;
+}
+
+button, input[type=button], input[type=submit] {
+    box-shadow: 0 0 0 1px rgba(16,22,26,.4);
+    background: #394b59 linear-gradient(180deg, hsla(0, 0%, 100%, .05), hsla(0, 0%, 100%, 0));
+    color: #f5f8fa;
+}
+
+button:hover, input[type=button]:hover, input[type=submit]:hover {
+    box-shadow: 0 0 0 1px rgba(16,22,26,.4);
+    background-color: #30404d;
+}
+
+button:active, input[type=button]:active, input[type=submit]:active {
+    box-shadow: 0 0 0 1px rgba(16, 22, 26, .6), inset 0 1px 2px rgba(16, 22, 26, .2);
+    background: #202b33 none;
+}
+
+button:disabled, input[type=button]:disabled, input[type=submit]:disabled {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    cursor: not-allowed;
+    color: rgba(var(--grey2),.5);
+}

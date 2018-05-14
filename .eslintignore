@@ -1,0 +1,5 @@
+# ignore transpiled front bundle.
+/public/assets/js/**/*
+
+#node modules
+/node_modules/**/*
